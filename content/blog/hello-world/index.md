@@ -1,21 +1,23 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2019-07-09T22:12:03.284Z"
+description: "ボクのサイトへよこそ！"
 ---
 
-This is my first post on my new fake blog! How exciting!
+Hello World!
 
-I'm sure I'll write a lot more interesting things in the future.
+I *finally* get started on working on my website/blog...
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+Better late than never, right?
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Hello, I am a female developer based in Singapore. I mainly work on front end, and currently explore CSS as a tool for drawing.
+Here are my social media links:
+[Github](https://github.com/SmokinClove) - my handle is derived from the Smoking Clover - a computer visual hack by Bill Gosper
 
-![Chinese Salty Egg](./salty_egg.jpg)
+[Codepen](https://codepen.io/SmokinClove/)
+
+[Twitter](https://twitter.com/bokukage) - my Twitter handle is an outlier from the rest, it is derived from a quote from Kuroko Tetsuya (Kuroko no Basuke): ```ボクは、影だ```。
+
+[Personal (not really) Diary](https://crimsoncoffeeblack.wordpress.com/) - i do actually have an existing blog where i write whatever i feel, my interactions with people, and sometimes, my goals. I usually consider it an online diary rather than a blog.
+
+[Soundcloud](https://soundcloud.com/ValkEerie) - i actually was actively making music as a hobby for a few years, and beside this account i also made [another one](https://soundcloud.com/veintage) for lyrical songs. Although i have faced a songwriter's block for about 2-3 years now, i do hope to get back to developing music with my newfound programming knowledge. Oh, and if you are interested in helping to sing the lyrics for my songs please contact me ヽ(ﾟ∀ﾟ )ﾉ Pity this poor woman having to belt out her songs like a duck.
