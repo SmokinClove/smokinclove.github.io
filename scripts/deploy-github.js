@@ -4,7 +4,7 @@ const ghpages = require('gh-pages')
 ghpages.publish(
   'public',
   {
-    branch: 'deploy',
+    branch: 'master',
     repo: 'https://github.com/SmokinClove/smokinclove.github.io.git',
   },
   () => {
