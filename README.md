@@ -3,5 +3,5 @@
   <img alt="SmokinClove" src="content/assets/profile-pic.jpg" width="60" />
 </p>
 <h1 align="center">
-  ボクのサイトへよこそ！
+  ボクのサイトへようこそ！
 </h1>

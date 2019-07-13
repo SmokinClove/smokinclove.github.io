@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: "2019-07-09T22:12:03.284Z"
-description: "ボクのサイトへよこそ！"
+description: "ボクのサイトへようこそ！"
 ---
 
 Hello World!
