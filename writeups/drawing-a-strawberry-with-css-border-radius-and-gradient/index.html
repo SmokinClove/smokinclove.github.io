@@ -1,0 +1,381 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=008654519ce705ac7bc44303a9014606"/><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=008654519ce705ac7bc44303a9014606"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=008654519ce705ac7bc44303a9014606"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=008654519ce705ac7bc44303a9014606"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=008654519ce705ac7bc44303a9014606"/><meta name="generator" content="Gatsby 2.13.14"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=008654519ce705ac7bc44303a9014606"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=008654519ce705ac7bc44303a9014606"/><title data-react-helmet="true">Drawing a strawberry in CSS | SmokinClove&#x27;s (mainly) CSS Nonsense</title><meta data-react-helmet="true" name="description" content="Drawing a strawberry using CSS border radius and gradients"/><meta data-react-helmet="true" property="og:title" content="Drawing a strawberry in CSS"/><meta data-react-helmet="true" property="og:description" content="Drawing a strawberry using CSS border radius and gradients"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="SmokinClove"/><meta data-react-helmet="true" name="twitter:title" content="Drawing a strawberry in CSS"/><meta data-react-helmet="true" name="twitter:description" content="Drawing a strawberry using CSS border radius and gradients"/><style data-href="/styles.1025963f4f2ec7abbad4.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-4124805c0503dbfe42dd67d7f5715964.woff2) format("woff2"),url(/static/montserrat-latin-100-c8fb2f714bbc7bc3e8dfffa916b286dc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-e4bf47bd171a9b2a72dd84c58bf90edf.woff2) format("woff2"),url(/static/montserrat-latin-100italic-d1f3f2d02ee4d7d2d4b1ad865014f189.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-444ae007121264bc1969d49b4031f9b2.woff2) format("woff2"),url(/static/montserrat-latin-200-edbce16a90aa22c297a0307b85789837.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-f316c5d1ec40f3e68654c3f38b3999f3.woff2) format("woff2"),url(/static/montserrat-latin-200italic-d7bbb730d9b5e11720b3eb32326dcca7.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-0a7c6df06e85d978d096d4d18fd8d43d.woff2) format("woff2"),url(/static/montserrat-latin-300-5e86df2cad22d2ef2b03516334afae5e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-c076c4892bc7a4be7b9097e97a35012d.woff2) format("woff2"),url(/static/montserrat-latin-300italic-37c74a8d2d0d36a0a2c6e9a37ee15b0c.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-501ce09c42716a2f6e1503a25eb174c9.woff2) format("woff2"),url(/static/montserrat-latin-400-f29d2b8559699b6beb5b29b25b8bc572.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-882908d9950d9c86ebd380877f293d95.woff2) format("woff2"),url(/static/montserrat-latin-400italic-22e7b04e5f2a901d49d4d342315a715a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-f0f2716c5fe401d175b88715e7d28685.woff2) format("woff2"),url(/static/montserrat-latin-500-991b453bf90a0980e78966d2af7e3d3a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-4590ebba421b3288c305305d7fa7b504.woff2) format("woff2"),url(/static/montserrat-latin-500italic-f3d41e4cdcc2314e49ddcea751d6f87f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-15c24f7109941777774ddd2c636c6a50.woff2) format("woff2"),url(/static/montserrat-latin-600-f6dc6096f48956908c1787d9a722570a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-6d10b80529d5c36c7c09fca7193af0fc.woff2) format("woff2"),url(/static/montserrat-latin-600italic-02c4833312d94b1b0866f073023a250e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-79982cd1f74c6fa7451bf9b37ead09ff.woff2) format("woff2"),url(/static/montserrat-latin-700-957e93fbbe131a59791cd820d98b7109.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-283438e9577fe6a684466bb100e105ec.woff2) format("woff2"),url(/static/montserrat-latin-700italic-ca627c5ccc65cf80c2ecaea44b997de9.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-35386154b78d046218fc8f88a44ff515.woff2) format("woff2"),url(/static/montserrat-latin-800-756655905d91b77960888262e7d58d35.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-e1b52a7bd83e2324db6d92bdc206844c.woff2) format("woff2"),url(/static/montserrat-latin-800italic-a69f0add9d86c1a84311d7dd8693ba4a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-260c2ea3ef57feb82251952e605a36d5.woff2) format("woff2"),url(/static/montserrat-latin-900-186cae8091da578150d81958e217714a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-d785fb9fc74588ffb7f306799709a97d.woff2) format("woff2"),url(/static/montserrat-latin-900italic-43b527fe77254f97ea36e2b54e845ec4.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}</style><link as="script" rel="preload" href="/component---src-templates-blog-post-js-9799553736694322b15b.js"/><link as="script" rel="preload" href="/1-41bd02ed776731ac1998.js"/><link as="script" rel="preload" href="/0-43c3b8504d39d035fd00.js"/><link as="script" rel="preload" href="/app-4dcc0058582e39fe166b.js"/><link as="script" rel="preload" href="/styles-d653ea551115ad24a78c.js"/><link as="script" rel="preload" href="/webpack-runtime-81b0e502398c4df4d99c.js"/><link as="fetch" rel="preload" href="/page-data/writeups/drawing-a-strawberry-with-css-border-radius-and-gradient/page-data.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Arial;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">SmokinClove&#x27;s (mainly) CSS Nonsense</a></h3></header><main><h1 style="margin-top:1.75rem;margin-bottom:0">Drawing a strawberry in CSS</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">July 21, 2019</p><div><p>Hi there, ever wondered about what would be like drawing a fruit in CSS?</p>
+<p>I was playing around with 9elements’ Fancy Border Radius at <a href="https://9elements.github.io/fancy-border-radius">https://9elements.github.io/fancy-border-radius</a> a lot lately and one day i got an interesting shape…</p>
+<p>It looks like this…
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 96.11650485436894%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAD+klEQVQ4y4WUa09UVxSGx0GlLQwwNxAYhrmdMzDDDMPMwKiAgLSVOxYsWmgqCdimrWm9pRUTWrWhmuAwXAehWMC7ILfQD7UmJlob+6FJL1+a+B/6G57ucxSQ2NgPb/Y+2Wc/+11r7bU1RoOdNRn0NkxGBzabH1kK4XIV4cmPEA5V4vftVueSFFTHzB0y+rTc9X1rDM2LQOWHHRkSkZJq9lY2UlXZQPXeJpqb3qOyop7GhoPqd23NAXFgkNQUKy/uXweunaCMZrMTa6aHdJ2NbLNMgWcnsi2AnBvAn78LnxzBlGRlh9H1krtNDpWFtcV0k1NIbDDasdl9FBWU4nGXIOWFsDp8ZKbLmAyO/wcqY0a6C7MAJuuyKA/XEP14gKXjN7jROUms7hy1+bWYsyT1n3Sz69VAk9GuOktKzuRI6zF+HnnCo/OP+OHDRZaaZ1kqjbMaGaJDaiVZb1EjeSVQOVWBtdV088vkXyz1/MS1zjmu1H3PRMkw3xVFuRkeUKF7LHvQGawi9M23ZFOV09Ks5Ekl3Oy7z+2eB0x8cJfhmln6Q6PE/IOMFw0yFYyyUDzChdCX6I3C3QsFVYEblh0YjFY6Gj/j2pnHRDsW6HvrKr2BOGe9w1z0DxErHCQeiDFdOspMyxReWwRdiuW/r42Su1ybl6OHovQf/pEvqmb53DfO8bwRznhHOFcgoL4hBneOMd48w8zRFcqDTaJ4mZiNTtJSrSRuT98AWrLy1c7orB3gWPU8h/Mv0yWN8al7jBP5o/R4RjhfPE5/41WGuu8y881DKiItaDQ6XkvMYIsmTcxTN0LOtfqQ3X7eKfuKA+6rtNpHed8Vp0se4xN5lFPBy3xdf52LXUtEe+4xPfk7VaXvCkgC2i16FaZC14B2WyEuqRC/ex9vWuM026c44BijwznGkcIJTuy7Tm/nMn2n79M/8Jjx5acEq54BE7TGlx3axYMguUI4XT68dtHDuTGabdO0+2b46O07nDy8Su/pB3wb+5XYnb+Z+u0fvKUNArIVrdagAlXoWg6zs/LUF8YthXE6C8hzlbJT7mZ/WYwj7fOcPHWPs9EnXLj+J5fuPeXg6SjbEoxoBUT73N0moFqYbI/6isgCarV6sORI5OR4cDqK8RRU4fFW4/RW8kaauG8ardDrz6V7OWSlLxVli2o7HQEa6tvY39xOU+MhoTbq61qpKN9HJFwh3sZdFAf2EDGFKMsowbzdsgFdz6G9EIcAOcQouYJcuTLLysoqK8urLC6usLCwzK1bc9y5Pc/NuXlWZud52HCJP1ri1Jh2C2AiWzX6Z0BFiiu3HFZhSk8rDpWcKvMUnQVdcvaGdEJJQgkZpGgz2LbFsJ7DfwGjin9+J2smbwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fancy Border radius"
+        title="Fancy Border radius"
+        src="/static/c578e76f473e3a037177cbd34e2a74bb/b9e4f/border-radius.png"
+        srcset="/static/c578e76f473e3a037177cbd34e2a74bb/cf440/border-radius.png 148w,
+/static/c578e76f473e3a037177cbd34e2a74bb/d2d38/border-radius.png 295w,
+/static/c578e76f473e3a037177cbd34e2a74bb/b9e4f/border-radius.png 590w,
+/static/c578e76f473e3a037177cbd34e2a74bb/f9b6a/border-radius.png 885w,
+/static/c578e76f473e3a037177cbd34e2a74bb/2d849/border-radius.png 1180w,
+/static/c578e76f473e3a037177cbd34e2a74bb/c4421/border-radius.png 1648w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span></p>
+<p>and i thought it looks like…
+A strawberry!</p>
+<p>So here we are, having this post thanks to this very handy tool that allows us to visualize various shapes possible just with border-radius.</p>
+<p>BTW there is a full control version when you can control all 8 points. <a href="https://9elements.github.io/fancy-border-radius/full-control.html">https://9elements.github.io/fancy-border-radius/full-control.html</a></p>
+<p>If you have not read their Medium post, please do. The link is in the website but here it is <a href="https://medium.com/9elements/css-border-radius-can-do-that-d46df1d013ae">https://medium.com/9elements/css-border-radius-can-do-that-d46df1d013ae</a></p>
+<h3>The end goal</h3>
+<p>The aim of this post is to make something like this…
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 338px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 95.85798816568047%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAEE0lEQVQ4y22UDUzUZRzH/80SU4J7QY/jeEvOA1IkEQJBzVDUEeTbeOlNnUOXWomG78twqWQcKohYW7g0Bc2pyKw5K1lzHXcck0PNCCcLrVlATBEkgePTc//jLkh+27Pn97x9nu/ze57nJ/E/6+/vH1I7rP3vdrffeOtXmu80u+cMnucwaThQX1+fu7278EN2GrfS86iPdR8vIyolEGutVR6z2+3DA4dT5bCzF06hmy9x4eJ5Nu5ZiSZF4vMTBfLY48f/DFnn8p9Q+KDjASbzT7Kflj2LaWsVbN6xntj3/QhbruCy2Tw4PrLKwVDJBert7ZHrT4p24psocfzkURZmxxC2Ygy6cAUJkz2Zr/NgTXwkm9Je5cSxo9gHuI4QuaCywj57n3vTh/e7WL49mUkZz6KLUzPPMIrScE/McSqatxi4OnsMtq1ZHF6xmNUL5vHX/Y4BqBMvuSR3dnRRefEMZRVHOH2mnKmpk3g7YAS2qSquxauxvuzDL9sN1Cb70GG6zOMLJyjzlViVkkRnT+9QhWaLiZmvh+OXLKHPlJiQ4U2afhz1cUpuG1+gdpEWc6yS6igF5hgF1tlaatMDaUzScihAIj9vj1Nlb68T+EPVdxz7+gtOnT9K5rZEQmJGcjbSC5tQZlsWQN1iLaYIbyzi2BbRVzvHh98+i8CaqqU+1ov3pgRzp7V94Mj9dnf8mm7dZtE7i5jvO4Lr0Sqq41VCkVD2ojcNG/XUv+kvt2sS1HJteknJ9Vg1xpBnOHOuwgl0Xcj3VZeISB+N9jWJ3DAv7m6ZgHmmDzUzxOJoJT+vCebGqqD/lIoQ1KXraMox8JW/xIFP81yX4gRu2LGa6Vk6IlKf55DBk3sFE7EkjaN6isKpaKpCVupQaRMgR3/dEj+ad03kbJDE7m2bBh62eIbiSdLV9Yjuzm6+PF7OLv+nuBnvg2WaivqlAdS8IvwEp9LrWUE05oZSLTYwi/Gr08ZSESqxa/MHT349h5375ltWap6mMmYsVUJFc+EkbryhwypgteL4NSJujmKdrsYi4nhtloZKGZjjBLq+jKOYTSYKCotImWygMNiD4nA1pWEKKqYouRSrokrE7sdBpTpNh2WOlvLxArhlEFB+2J2dHCktZZ/RyJrs9SwI0ZAf5MHBUCVGvZLCGb4UxY1jX4g3+w0K9ov+krl+HI7WkquW+Cgne6hCh9nq6igpLmZvXh7vbshhblQEy7Sj2KEbSX7waA6EPMdBvZdcioR/INCTItG/dLREeVnZ8DFsbWnhypUrnD55koMlh1m7LpuFSYmkRISSGqxhgU7BkkA1GeM1ZIpTvBWppyh/rzv7SMPlNFfy7Op8KLJ1G3/c+5OG203YbjZQ39DIrbu/c7e1jTstbbR3dQ/J9v8CqEc8UjBxpr8AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Strawberry"
+        title="Strawberry"
+        src="/static/c7b6bd7d10c1b30789577836afe6a802/308c1/strawberry.png"
+        srcset="/static/c7b6bd7d10c1b30789577836afe6a802/cf440/strawberry.png 148w,
+/static/c7b6bd7d10c1b30789577836afe6a802/d2d38/strawberry.png 295w,
+/static/c7b6bd7d10c1b30789577836afe6a802/308c1/strawberry.png 338w"
+        sizes="(max-width: 338px) 100vw, 338px"
+      />
+    </span></p>
+<h3>TL:DR aka just show me the damn code</h3>
+<p><a href="https://codepen.io/SmokinClove/pen/EqYWKe">https://codepen.io/SmokinClove/pen/EqYWKe</a></p>
+<h3>In case you stayed</h3>
+<p>Let’s dive in!</p>
+<p>So first of all let us create a div with the class name … yeah, “strawberry”</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  &lt;div class=&quot;strawberry&quot;&gt;&lt;/div&gt;</code></pre></div>
+<p>As for CSS, i like to use absolute positioning because it makes it easier to shift elements without affecting other. So for the strawberry, we can let is be relative first so its children can be absolute.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  .strawberry {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: red;
+  }</code></pre></div>
+<p>Use the preset border radius below to preview the shape <a href="https://9elements.github.io/fancy-border-radius/full-control.html#68.62.64.70-54.46.80.75-">https://9elements.github.io/fancy-border-radius/full-control.html#68.62.64.70-54.46.80.75-</a>.</p>
+<p>So now our strawberry CSS will look like this</p>
+<p>CSS</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.strawberry {
+  position: relative;
+  border-radius: 62% 54% 24% 70% / 68% 64% 20% 46%;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  background: red;
+}</code></pre></div>
+<p>Next, i would want to draw some seeds on the surface of the strawberry, so let us give the strawberry display flex and centralized contents</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.strawberry {
+  position: relative;
+  border-radius: 62% 54% 24% 70% / 68% 64% 20% 46%;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}</code></pre></div>
+<p>By this time our strawberry should look like this
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 154px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 97.40259740259741%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACnElEQVQ4y62USUwTURjHH+DFqKhtbQvErUVR8YBehKkFTI3ejHpS4gFF03hoFFOD1RATlwPG1IoohhQSl7DFGKzLAS9epAUUK6QFJRijHgRCNJoYk07795ulOJ2ZevIl37wvb2Z+79sZaKVSKVGElUwmkeR5ZFs8n5j/Nr0rF1PCeAXoVWwcrTdbcNF7AhdOedAcuIboxOT8e+FiPShTw6a//4DXXYd6+2J02Bj6NuTiEYmge+z5OH/WB/4fUCbC5BefZ+ZwyLEFnfTzRJUJY9UWvKkyiyLo7yqN8BcwnDxaC5mUES6FhSkk6Onesxuh9QzjrkIMcEZEOAMGZRF04ezDzgJctjIEmptFQCKRyHQ5fdDa1oamIob3LiteVhgw5DASyDgPHHRIethhwmhFPtxla/Fl7luG67LLKfwm5birHANbF2LIueIvhJPAQzJM2MO0x3dYcHUVw/3uHo2VYgyHKaO+kmWIO8kCLhOglPQlUYrpg5IcXGrwSglVA/uePEXTmjzEq80iUA+mBI5UmvFsUy7OHa6RXFYDe3p74V/JECNXIipX9aCvCdhfmoeGg/skIK8CPgw9xpXVOWJswpwhq8saYE0W4Mevs3CXFiLG5SNCSYlw2iwrXZaAuQTcr3WZl+ntHR04baGC3r4co9VWRKg8wnItqmXYacbzzQtw5sBerYVCYSeTUjO1BYOosy1FVzHDyLYliFeaEKMOGVPIW8rw1K4ihOwMvmO1+lkWoXIvj05OodFbD0/5RjQWL4Kf6q2dWvEuXXKH5N66HLTQ2ZEyG6KxuLawlaNIedPMz194ERlGZ1c3brfeomkTwI3rAXHqBCk8n6ZnNbAMC5XzkFf1Z/bZyOtPGzU0rQs/CG2lJ8rRpQv8X+sPscKWkPZi6ycAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Strawberry Skin"
+        title="Strawberry Skin"
+        src="/static/7e98a2690af0d68cd73bd19c011b593b/bad54/strawberry-background.png"
+        srcset="/static/7e98a2690af0d68cd73bd19c011b593b/cf440/strawberry-background.png 148w,
+/static/7e98a2690af0d68cd73bd19c011b593b/bad54/strawberry-background.png 154w"
+        sizes="(max-width: 154px) 100vw, 154px"
+      />
+    </span></p>
+<p>And because i want to have 3 rows of 3 seeds each plus one last row with only one seed, i added into the html as below</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> &lt;div class=&quot;strawberry&quot;&gt;
+    &lt;div class=&quot;seeds&quot;&gt;
+      &lt;div class=&quot;row row-1&quot;&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row row-2&quot;&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row row-3&quot;&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;seed&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre></div>
+<p>Right now nothing will show up yet because we haven’t added any css to the seeds.</p>
+<p>Let us talk about the seeds for a moment. Usually the seed is not a square, not a circle, but more like a teardop shape.</p>
+<p>Can we do it with border-radius?</p>
+<p>Of course, feel free to to back to the Fancy border radius and play with it! Or you can use the preset here to preview.
+<a href="https://9elements.github.io/fancy-border-radius/full-control.html#0.0.77.80-0.0.79.81-">https://9elements.github.io/fancy-border-radius/full-control.html#0.0.77.80-0.0.79.81-</a>.</p>
+<p>Let us go ahead and add a few CSS styles for the seeds.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.seed {
+  width: 4px;
+  height: 4px;
+  background: yellow;
+  margin: 4px 5px;
+  border-radius: 0% 100% 19% 80% / 0% 77% 21% 100%;
+}</code></pre></div>
+<p>Oops! All the seeds are lined up in a straight line. Since i want 3 rows, each of the rows should be of horizontal arrangement. For that i will give them flex display.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.row {
+  display: flex;
+  justify-content: center;
+}</code></pre></div>
+<p>We’re getting there! ;)
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 150px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 98.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADb0lEQVQ4y61Ua0hTcRS/VvQQX5vzOrV8FkaaNqtZ+WplQQ/IXtCDCirCIiOLQI3KXhrVl74V9aGSCJm2stcwGvZwbs5cTd0ySVpCnyJJKKrd7de59+7Ou2nfOnC458+9/9/5/c459zDwm8/nE5w3juPgJR/POI8n8J38jmSM9EJ6cpwn8NLlHsJTkwkPHj9B64tX+DL8fRSY844LysjBvF6RVdsrGyq2bkTlXDVq1RNwhmVwIm0KyvMycLamFj9+cQElckJBgBLYfdNdVK1h8XBWGHryo+E+kI7BXSlwFqjwVhuJG+umYfe2VRge+em/5w0CFSR7PKLM2w2NqNZOxcjVbHQXsmjPU6C3Mh39pzMpjoF5gRLfrsxDc1k49q7b4C++N0g2I2V4/2kIuzJZ2DURMGuUsBYo0VkYi47caFjmxwhxZ0EsXmRFYaAkHjWJDO7omyERCgByfnbHjx3FzRQG79fPgG11PKyLCHSxEvayBHSVxonnJXTelIg3uni05UxG+Zpl8MlYBiR//fEL+xfPgS0nHI49qfh8SwPLQgU65sXgw6lMfLw4Bx2aGIHpp2s56DmUDkdeFA5nsegddAfVUgB83WVH1cxIOItjYdYqYVuqEuTxjKz5dNapxHiJyNpK753FKpyizhtNbUEdFwAfGVtxJjkMzhIWlhIVLFqFcJkH7eTPxFaIeS+ipHR2key66QyaH7RA3lgB0PDwMc4nM+hdpIJjXwrcN3JFySRz4OxsDJybLUpeoID7ei4c5an0bRzqZzDQ3zOMBWyzdKI6bSr6S+JgJgbvtiSJ8qgRXStZvN2cKDaFvHutGl3kzmIW9cRQb7gfCujDbwr2rCjC8+yJcOgS8JqKL0imUbHw8zc3OjA2ViqHWeuXnMSgKRRQKuabXie2Z6rxLGsiPixXo3spCzMNtrN6FvqOZKCdl0yAvLdTsj6dGpdIcmNT81jJHo8Ianf1Y2dpEU5SZmP2JNjnR2Bwx3R8rpyJvoI4uJbFw6njXY2PxQpUJIThpdUW3GVpIKUMf8gbGvU4TMvhoCYV1cnhOE3LgW9APSXi63aB4v3J03C57rz/75MNdugeBEY3x9DXYaFhLUajUCu9wSA+qbM2KpF8l47Zh/I1Jvyb/1iwcuOXsPxeADB0a8udZ80nCPXxwMYA/g/7C9yZ06HPHGrQAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Strawberry with seeds"
+        title="Strawberry with seeds"
+        src="/static/64c5535f24b64fe2a28b19f10a651ca7/d4214/strawberry-with-seeds.png"
+        srcset="/static/64c5535f24b64fe2a28b19f10a651ca7/cf440/strawberry-with-seeds.png 148w,
+/static/64c5535f24b64fe2a28b19f10a651ca7/d4214/strawberry-with-seeds.png 150w"
+        sizes="(max-width: 150px) 100vw, 150px"
+      />
+    </span></p>
+<p>Now, because of the way we used the border radius, the strawberry tilts about 45 degree anticlock wise. So I want to turn the whole 4 rows of seeds in the same direction too for easier alignment. Let’s add this CSS into our stylesheet.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.seeds {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  transform: rotate(-45deg);
+  justify-content: center;
+}</code></pre></div>
+<p>Now the seeds should look better contained within the strawberry.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 164px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 90.2439024390244%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAADAElEQVQ4y62U3UuTYRjGX0WNiHJzblOnuSYuG37kR36lJSaVIGrgQaD2gUUZJFki1TQ9MVIKjNCUrSz8OrCDDCkydaY4t+lr5sypqYEaHQT9Ac559Tzvps7NddQND8/Du5sf13Xt5mYGBwdBa319nbs3NjbI2wxXRftoz2avYzH2QAttsDUt//6Drq4uPK58gNoKJVrUKsyv/ISN5BK6BTSbt1U1NTaiJDoYDSGeeJe2B29j3KGSueNWuB+ePa3/J3RboQ1YVVaKWgmD6RRvGI/7Yrk2AnNXZZiME2AmmYeH/gweVVdxvRab/V2BtJqbnqMukMH3NDG08QLokn0wGsODLo4PNtcfhkw/8psQ9wLd0P3+ww4hW0CNRsM9FlZ/4WZUIIwJB8Cek+BHQwTGTvrCcIKAj/ExX30Y08VS6GMFGIr0wp3c01hzsM4B+/v6uIequQlNxOpUoi/0BDSR5Qc9UaiL5XG3Pp4PHTmGM2LMnhWhQu4N1jRntW6x2Ckc6OceFZcKMZS7HzOXpdAl8DlVbKYYS/XhGM8QwpBiVWpSyrFSHoonEnd09/TsGDkOOPTZmqEyKwMTF4WYKZZBG+nN5UYtT+YFcDCaJac4yQdTqUKo5J5of9XilCMzTIA0gcqcdAwrvKCL5mPyvARf8wOhT/Sxgk8JsVinAEusUqAxTQR1qAdaX6qdgZuWlVcuoDfcHWyyCMZrwTCVyjAazeNsUqVThUEYS/PFSJQ3p1Atp8AXzsCBfitQM6LFbelezKbwwCaJMHKU3Nl+nFqaKbVsSBVgviYM33ICoJZ5oG03hfZz2NHZiRLpPvRGeJDx4WOJ5LlUGYbxJCFYMptsuhjT18m37CCopAxaX7e4BprXuKmClv2Csvw83FcI0HDQDW8OMfiocEMfPUfc8EnGoIt8uxEbgsWVVeexsV8O9n//5NwCOtrbUKcsR1VxEZRFBSTnQnIKUHO3DKbFJSeYE3BrPTk0uapN2O7LwWHP0Wa6F2k+6+Y1h2PeAXMJ/B/1Fy8RaKH56TV7AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Strawberry tilted seeds"
+        title="Strawberry tilted seeds"
+        src="/static/ca493ed2940d4ffd92a37c30f3d2c96c/63ea9/strawberry-seeds-tilted.png"
+        srcset="/static/ca493ed2940d4ffd92a37c30f3d2c96c/cf440/strawberry-seeds-tilted.png 148w,
+/static/ca493ed2940d4ffd92a37c30f3d2c96c/63ea9/strawberry-seeds-tilted.png 164w"
+        sizes="(max-width: 164px) 100vw, 164px"
+      />
+    </span></p>
+<p>Next is aligning the seeds. Actually i think there is no fixed rule to this. As for me i like to shift the center seeds of the first 3 rows up a bit while tilt the outer seeds inwards for each row.</p>
+<p>So my CSS would look like this.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.row-1 div:nth-of-type(1) {
+  transform: rotate(80deg);
+}
+.row-2 div:nth-of-type(1) {
+  transform: rotate(70deg);
+}
+.row-2 div:nth-of-type(3) {
+  transform: rotate(10deg) translate(2px,2px);
+}
+.row-3 div:nth-of-type(3) {
+  transform: rotate(70deg) translate(2px,2px);
+}
+.row div:nth-of-type(2){
+  transform: translate(1px,-3px) rotate(45deg);
+}</code></pre></div>
+<p>Tada!</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 142px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 84.50704225352112%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADcklEQVQ4y42Ua2yTVRjH3xXMlJht7XqBdcyBDHCFrWNOLmPdYCPBC2IwYSQbzmlQKhNHzBANlw/bMFwXRuADMkFITLwMgm4QTQwfML3t0hUnsK1xaDICH4zfULN2P885bzve6hdPct6nb9vze/7/8zznaFNTU8gpRzweJzmiE/fpOn+ePTu8eGs30+J9izNdXUz8/of+31hsel0yyqElX2IJmHy2tbfRsMjB0bkal9wz+cEzi68L0jiSp1HnyuPshYs6SKz5N1QzKvsrPkXj5k20Z2sMl2cxvNLG+L5nmPhsGWHx+U71bIZWZbDdqnHkeIcuRChNASrLCeB7b2/jpFPjt7p8gmvt+FdYCKy0EJSzPBtfmRmf28xYpZU3bBrdPVfVusnJyUeWky+fd1/m/RyNkeVWRjuWMNa2GF9RJiGPldDqbAICFql1Ej1cyMAaBzfcj7PVU8bDWHxaoZyaeCKRDTUVXC9Jp7/CRnCVhb5qPfqXZakYXG5hcMNsRvcuJCAUjqyx81Guie7ea9PWdaAY/qGb7Jz/JMNChV/Yk4r8JVlE6nL59WyxshyqyFZQf3Em/ufMDAknFxekceCDlhTbCnim6xwdC0w86CwiKC2K/VIqq6zc3vU0fUKR352pvpfWb76ex3i7i575Gs1bXklpIwU81NbKuQIT90+7CdXYCJRm6YWQlgVIxlvvzqN/nV39Fn41h+hBFzdcj7HjpWr+1jfxEfDg/r1cEPKlDWknvGmOWhwUVZZFkZC7p5fyszd/OlngWbm/6bzzfCV/qo4xAE90dnIqX+PWujn8uCSDX465GGvVqyxtK6ulieKoApnp89jwlUhg1X+BkdEoDU9lcKdCZC63EhR7puzJvivSLctCJePAiw6RyC56UgBfEEAMwGSnn+g8yS5xAkY8FiJVDnylZga3OLn7aTEhkUDCAmIL+tfbuXeljHDtXHxL02kSwIdxA9B4UjqE9frcWXyxMI3IikzGXs5hvLmAiGjksMdOuNKu4sBqG7drnFx3mdi+cX3iXBuqbIQGIj/R1Pga21xODuSk8YlD4/JiE98WzqCncKaYM+gV1f2yQKPe+QS9332fcqY1420RM5zJ6L0HfHXlGz5ub+XDJi+739xKS2MduxvrVdzTvBNf/2DKtZeqMHmNiUzxRLb/M4y3jZz/AP4awkJXFyFYAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Strawberry aligned"
+        title="Strawberry aligned"
+        src="/static/70bb8f4e83fbd94bb1fa3595726c389c/2aa2d/strawberry-seeds-aligned.png"
+        srcset="/static/70bb8f4e83fbd94bb1fa3595726c389c/2aa2d/strawberry-seeds-aligned.png 142w"
+        sizes="(max-width: 142px) 100vw, 142px"
+      />
+    </span></p>
+<p>Now, here comes the more fun and possibly more challenging (?) part  - the leaves. First let us make a simple chubby leaf (the leftmost one in the first screenshot). Go ahead and add a new div right under the <code class="language-text">seeds</code> div</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  &lt;div class=&quot;strawberry&quot;&gt;
+    &lt;div class=&quot;seeds&quot;&gt;
+      &lt;!-- The seeds code ... --&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;leaf-1 leaf&quot;&gt;&lt;/div&gt;</code></pre></div>
+<p>To make this chubby face, again we can use the single border radius property. Go and play around with the tool again.</p>
+<p>In case you need a tamplate, use this to preview <a href="https://9elements.github.io/fancy-border-radius/full-control.html#0.0.100.28-0.0.100.100-">https://9elements.github.io/fancy-border-radius/full-control.html#0.0.100.28-0.0.100.100-</a>.</p>
+<p>and the CSS:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.leaf-1 {
+  position: absolute;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 0% 100% 0% 28% / 0% 100% 0% 100% ;
+  border: 1px solid black;
+  transform: rotate(-80deg) translate(0px,-13px);
+  background: green;
+}</code></pre></div>
+<p>Now this leaf looks cute and all but, what if i want a curved one instead of chubby one?</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 40.13377926421405%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABt0lEQVQoz22SzWsTYRCHF/w4aA0GWnq0gh9YlVIIidKCSaMVgwZaUwKih7QgjQfR9tA/oBfBvyWCkEMvVhu72xVDtLQ55GRaktUKDU1D2mx2N0/3Ixsb6u/yzsw78wzMjIApTWvianurTCqVotl0Yq1Wq/Met3VdR9M10zZsv1armTUqgvVh6UduncRsnGv+i9wbG23jWx2QCzMMw4531DZLpTLFYhHBciRxjZt3+wlMXeDG2FkePQg6xf+FOUqn08wtJHn+MkriVYx37xepVCoItf0Dgk+GGHnmYeLNFS75TvPiYcgu0o2TMKWsEE9EzMZn8MfOc2fKg/9pD1dDArkNCWF1VWQw0M/weC++SB+9A6d4HQ13AV1oU9UYjwQZHPESil3ndtiETXp4nLzMrXAP4pqIoKoqxV/brP/coFxSmHs7z8z9QBtodAGt3M38Jn+UHZTSDpmVDNPJOL6ol3Nega/LK84MLR0eHthbyma/s/Txg7lF7cSWXVX3q+xWdqnX6/xW/vI5s8yXT0vUq3sO0DqRQqGAJEmIokg2l6PRaHSdiwu0riKfzyPLsp0vf5PN+f5rdgSl6RCNhxi9yQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Strawberry leaves"
+        title="Strawberry leaves"
+        src="/static/008c97b7eee9d92030e11c6f77b3e5d4/b9e4f/chubby-vs-curved.png"
+        srcset="/static/008c97b7eee9d92030e11c6f77b3e5d4/cf440/chubby-vs-curved.png 148w,
+/static/008c97b7eee9d92030e11c6f77b3e5d4/d2d38/chubby-vs-curved.png 295w,
+/static/008c97b7eee9d92030e11c6f77b3e5d4/b9e4f/chubby-vs-curved.png 590w,
+/static/008c97b7eee9d92030e11c6f77b3e5d4/16bf3/chubby-vs-curved.png 598w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span></p>
+<p>As it looks, the border radius does not seem to allow us such a concaved background. There are sure to be multiple ways to achieve this. Maybe we could divide the leaf into multiple divs and stack them up while rotating the parts progressively.</p>
+<p>In this post i will use stacking 2 circles on top of each other using radial-gradient.</p>
+<p>We will have one quarter of a circle as the base, with background green, and one arc on the left with background white to cover up the green at the bottom.</p>
+<p>For lack of more creative words i will name the 2 parts <code class="language-text">left</code> and <code class="language-text">right</code>:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 86.68171557562077%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAABrElEQVQ4y51U2W6DMBDk/7+t732qlFRNShKIuXzbTHcNJNShbdSVkBcbj2d21hSYYxzHNIYQYK2F9z7l6/VnnmINtowcMUZ4AuRxPf9XFDnDJWcgDmZqtMLQtxjkAGMMgp9UWGvm0d5UFWt2CxCPvMg5P2oYcHh9QXna4SxKiLaaDqStId5VKKUeJTvnHiRamotKQpfv0EZBdBVO9YHmzTd1Wus7Q2aUy17eJ5kOXhCzrkEjG1yunzie91B6uO1JgMtmdnTt1vpkrk8wGsFZDMcdmr4mw1xaY6bG6pTfJK/Z5TWdAA08GcPvVlyg2xphXotUQwblgt4kL0X9iaEjV7WoYdoGVvWwVQkXfaonRy9btP2VDnYoUr8Rw7x1csmRnZ+Zdh9vSb4PDCrTNxdyX0o5MdySmQOOvLkXBKrhzkdoYsotkzrDW3SDQHU9o1jM+I2hIUBHzJIpfQPTCdgr1dKZVN8xjtRKNQ7l/jnAQOyYpZtvhCE3Td8RM59ayjtP7SPR0kGbV28LNJ8LIW7f5S1Xc7C8A9KVnP9Em3+bZ2PLvDz/FyDXne/8lqovr3Q8tKP/djAAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Strawberry leaves"
+        title="Strawberry leaves"
+        src="/static/2fe8ddc2fe3a74186ed0aa2db28e878d/b9e4f/diagram.png"
+        srcset="/static/2fe8ddc2fe3a74186ed0aa2db28e878d/cf440/diagram.png 148w,
+/static/2fe8ddc2fe3a74186ed0aa2db28e878d/d2d38/diagram.png 295w,
+/static/2fe8ddc2fe3a74186ed0aa2db28e878d/b9e4f/diagram.png 590w,
+/static/2fe8ddc2fe3a74186ed0aa2db28e878d/f9b6a/diagram.png 885w,
+/static/2fe8ddc2fe3a74186ed0aa2db28e878d/194a3/diagram.png 886w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  &lt;div class=&quot;strawberry&quot;&gt;
+    &lt;div class=&quot;seeds&quot;&gt;
+      &lt;!-- The seeds code ... --&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;leaf-1 leaf&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;leaf-2 leaf&quot;&gt; 
+      &lt;div class=&quot;right&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;left&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre></div>
+<p>And let us then add the CSS :D</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.leaf.leaf-2 {
+  position: absolute;
+  left: 0;
+  top: -15px; /* because the height of the leaf is 15px, shifting it up 15px here to make it easier to see */
+  width: 15px;
+  height: 15px;
+  transform: rotate(-55deg) translate(-23px, 1px);
+  z-index: -2;
+}
+.leaf-2 .left {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at -54% 78%, white 50%, black 50% calc(50% + 1px), transparent calc(50% + 1px));
+}
+.leaf-2 .right {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 0 100%, green 0 14px, black 14px 15px, transparent 15px);
+}</code></pre></div>
+<p>Yay! we’ve got a curved leaf and a chubby leaf!</p>
+<p>Well as for the other 2 leaves, i just flipped the curved leaf around and translate them to my desired position 🌚</p>
+<p>So i can copy the second leaf’s HTML and CSS code and customize their styles further.</p>
+<p>HTML:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  &lt;div class=&quot;strawberry&quot;&gt;
+    &lt;div class=&quot;seeds&quot;&gt;
+      &lt;!-- The seeds code ... --&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;leaf-1 leaf&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;leaf-2 leaf&quot;&gt; 
+      &lt;div class=&quot;right&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;left&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;leaf leaf-3 leaf-2&quot;&gt;
+      &lt;div class=&quot;right&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;left&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;leaf leaf-4 leaf-2&quot;&gt;
+      &lt;div class=&quot;right&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;left&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre></div>
+<p>CSS:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">.leaf.leaf-3 {
+  transform: scaleX(-1) rotate(20deg) translate(-4px, 4px);
+}
+.leaf.leaf-4 {
+  transform: scaleX(-1) translate(-17px, 0px);
+}</code></pre></div>
+<p>And the most tedious part is over! For the inner shadow, the stalk, outer shadow and the white shining part, i leave the reader to explore :D The inner shadow was quite a cheating implementation because i just copied the strawberry skin and add color to the border radius. If you are pickier than me about shadows, feel free to polish yours and share them with me :D</p>
+<p>See the whole code so far:</p>
+<iframe height="265" style="width: 100%;" scrolling="no" title="Strawberry with border radius and radial gradient" src="//codepen.io/SmokinClove/embed/jgPKwL/?height=265&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/SmokinClove/pen/jgPKwL/'>Strawberry with border radius and radial gradient</a> by SmokinClove
+  (<a href='https://codepen.io/SmokinClove'>@SmokinClove</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<p>My complete code can be found here <a href="https://codepen.io/SmokinClove/pen/EqYWKe">https://codepen.io/SmokinClove/pen/EqYWKe</a></p>
+<p>Cheerio!</p></div><hr style="margin-bottom:1.75rem"/><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwQG/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABoW72wwJBjWTTnSisP//EAB0QAAICAgMBAAAAAAAAAAAAAAECAwQABRESMhT/2gAIAQEAAQUCuW3MizSIUPZGrFr3yJgHAneOItscr2hLHsfeV/H/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAiEAACAgAFBQEAAAAAAAAAAAAAAQIRAyJRcZEQITFBgbH/2gAIAQEABj8CcIOorQtTfIpaocPTd/B0l4ooWJN9/wBMuHyy5ZXZDbo9z//EAB4QAQEBAAEEAwAAAAAAAAAAAAERACEQMUFhUaHw/9oACAEBAAE/IWXtj5LjPAtmX4kGZH0ZeTgwsHwvnEY7BNPQRCdxhHlfeIyhE32HT9Hrf//aAAwDAQACAAMAAAAQYM8M/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAIhABAAIBAwMFAAAAAAAAAAAAAQARIVFxgRAxoUFhkbHw/9oACAEBAAE/EEuKZULvnS8VMU7XJFNSKENkN1ZcsfAjVnHLUQoEbLgNtufeYBxDYlVrGbRVlb036czs2NG/ARsVBhscDfmfi6nTyv0n/9k=" alt="SmokinClove" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/static/61b1831e8cd1bd244f8d6dd4433219e2/9b664/profile-pic.jpg 1x,
+/static/61b1831e8cd1bd244f8d6dd4433219e2/06a10/profile-pic.jpg 1.5x,
+/static/61b1831e8cd1bd244f8d6dd4433219e2/f1b5a/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="/static/61b1831e8cd1bd244f8d6dd4433219e2/9b664/profile-pic.jpg 1x,
+/static/61b1831e8cd1bd244f8d6dd4433219e2/06a10/profile-pic.jpg 1.5x,
+/static/61b1831e8cd1bd244f8d6dd4433219e2/f1b5a/profile-pic.jpg 2x" src="/static/61b1831e8cd1bd244f8d6dd4433219e2/9b664/profile-pic.jpg" alt="SmokinClove" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p><strong>SmokinClove</strong>, currently lives in Singapore.<!-- --> <a href="https://twitter.com/bokukage">Her Twitter handle is inspired by a quote by Kuroko Tetsuya from Kuroko no Basuke: <em>&quot;I am a shadow&quot;</em></a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/learn-a-new-thing-or-two-everyday/18072019/">← <!-- -->TIL#6</a></li><li><a rel="next" href="/art/yasuri-shichika-css/yasuri-shichika/">Yasuri Shichika in CSS<!-- --> →</a></li></ul></main><footer>© <!-- -->2019<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'undefined', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/writeups/drawing-a-strawberry-with-css-border-radius-and-gradient/";window.webpackCompilationHash="85bd888c1940eaf7f9ac";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-4dcc0058582e39fe166b.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-af3c5c17751fcf590ad8.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-9799553736694322b15b.js"],"component---src-pages-404-js":["/component---src-pages-404-js-5ce7fdce604a3cda9b73.js"],"component---src-pages-index-js":["/component---src-pages-index-js-06b95106485bd2c494a3.js"]};/*]]>*/</script><script src="/webpack-runtime-81b0e502398c4df4d99c.js" async=""></script><script src="/styles-d653ea551115ad24a78c.js" async=""></script><script src="/app-4dcc0058582e39fe166b.js" async=""></script><script src="/0-43c3b8504d39d035fd00.js" async=""></script><script src="/1-41bd02ed776731ac1998.js" async=""></script><script src="/component---src-templates-blog-post-js-9799553736694322b15b.js" async=""></script></body></html>
