@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{179:function(n,t,e){"use strict";e.r(t),e.d(t,"default",function(){return u});var r=e(0);function u(n,t){var e=Object(r.useRef)();Object(r.useEffect)(function(){e.current=n},[n]),Object(r.useEffect)(function(){if(null!==t){var n=setInterval(function(){e.current&&e.current()},t);return function(){return clearInterval(n)}}},[t])}}}]);
+//# sourceMappingURL=component---src-pages-moonwalker-use-interval-js-b8792852d8d79409e721.js.map
