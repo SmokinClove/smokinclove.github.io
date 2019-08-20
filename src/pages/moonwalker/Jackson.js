@@ -1,7 +1,26 @@
-import React, { useState, useEffect, useCallback } from "react";
-import useInterval from './useInterval';
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import './Jackson.css';
 // the original duck walk https://www.youtube.com/watch?v=EqS76TFCCYs
+function useInterval(callback, delay) {
+  const savedCallback = useRef();
+
+  // Remember the latest callback.
+  useEffect(() => {
+    savedCallback.current = callback;
+  }, [callback]);
+
+  // Set up the interval.
+  useEffect(() => {
+    function tick() {
+      !!savedCallback.current && savedCallback.current();
+    }
+    if (delay !== null) {
+      let id = setInterval(tick, delay);
+      return () => clearInterval(id);
+    }
+  }, [delay]);
+}
+
 export default function Jackson() {
   const leftLegStages = ["stage-1", "stage-2", "stage-3", "stage-2"];
   const rightLegStages = ["stage-3", "stage-2", "stage-1", "stage-2"];
