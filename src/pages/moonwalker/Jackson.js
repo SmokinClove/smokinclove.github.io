@@ -133,7 +133,7 @@ export default function Jackson() {
   };
   useInterval(moveOneIndex, on ? delay: null); /* <-- This is the main call that kicks off the dancing */
   return (
-    <div className="playground">
+    <div className="playground-moonwalk">
       <div className="ceiling"></div>
       <div className="dancer-space">
         <div className="micheal-jackson" id="micheal-jackson" ref={jackson} style={{right:rightOffset, transition: `right ${animDur}s ${animFunc}`, transform:`${danceMode === DUCK_WALK_MODE ? 'scale(-1,1)' : ''}`}}>
