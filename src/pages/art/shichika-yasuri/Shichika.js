@@ -1,7 +1,7 @@
 import React from "react";
 import './Shichika.css';
 export default function Shichika() {
-  return <div class="playground-shichika">
+  return <div class="playground">
   <div class="shichika">
     <div class="hair">
       <div class="hair-shine-frame"><div class="hair-shine"></div></div>

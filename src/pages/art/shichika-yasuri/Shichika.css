@@ -22,9 +22,10 @@
   position: absolute;
   box-sizing: content-box;
 }
-.playground-shichika {
-	width: 100vw;
-	height: 100vh;
+.playground {
+	width: 600px;
+  height: 600px;
+  background: white;
 }
 .shichika .hair {
 	display: flex;
