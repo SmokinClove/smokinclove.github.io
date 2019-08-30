@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import './Jackson.css';
 // the original duck walk https://www.youtube.com/watch?v=EqS76TFCCYs
+
+// useInterval
+// copied wholesale from https://overreacted.io/making-setinterval-declarative-with-react-hooks/
 function useInterval(callback, delay) {
   const savedCallback = useRef();
 
@@ -42,7 +45,7 @@ export default function Jackson() {
   const [index, setIndex] = useState(1);
   const [animStage, setAnimStage] = useState(0);
   const [animFunc, setAnimFunc] = useState("");
-  const [danceMode, setDanceMode] = useState(MOON_WALK_MODE); /* 0: moon walk, 1: dance walk */
+  const [danceMode, setDanceMode] = useState(MOON_WALK_MODE); /* 0: moon walk, 1: duck walk */
   const [on, setOn] = useState(false);
   const [delay, setDelay] = useState(700);
   const [animDur, setAnimDur] = useState(0.7);
@@ -52,25 +55,17 @@ export default function Jackson() {
       setRightPos(node.getBoundingClientRect().right);
     }
   });
-  const changeDelay = e => {
-    setDelay(e.target.value);
-  }
-  const toggleDance = () => {
-    setDanceMode(danceMode ^ 1);
-  }
-  var moonWalks = () => {
-    setRightOffset(rightOffset + 60);
-  };
-  var duckWalks = () => {
-    setRightOffset(rightOffset + 60);
-  }
-  var moveJacksonToEdge = () => {
-    setRightOffset(0);
-  };
-  const toggleOn = () => {
-    setOn(!on);
-  }
+  // the use states
+  const changeDelay = e => setDelay(e.target.value);
+  const toggleDance = () => setDanceMode(danceMode ^ 1);
+  const moonWalks = () => setRightOffset(rightOffset + 60);
+  const duckWalks = () => setRightOffset(rightOffset + 60);
+  const moveJacksonToEdge = () => setRightOffset(0);
+  const toggleOn = () => setOn(!on);
 
+  const isJacksonOutOfStage = () => rightPos <= 0;
+
+  // use effects
   useEffect(() => {
     setAnimFunc(animationTimingFunc[animStage]);
   },[animStage, animationTimingFunc]);
@@ -80,6 +75,8 @@ export default function Jackson() {
       moveJacksonToEdge();
     }
   });
+
+  // advance to the next step of the dance
   var moveOneIndex = () => {
     setAnimDur(0.7);
     var leftLeg = document.getElementById('left-leg');
@@ -127,9 +124,6 @@ export default function Jackson() {
     }
     setIndex((index + 1)%NUM_MOVES);
     setAnimStage((animStage + 1)%NUM_MOVES);
-  };
-  var isJacksonOutOfStage = () => {
-    return rightPos <= 0;
   };
   useInterval(moveOneIndex, on ? delay: null); /* <-- This is the main call that kicks off the dancing */
   return (
