@@ -82,7 +82,7 @@ This one is an experiment with writing a post describing the process of drawing.
 
 ###9. July 2019 - [The crimson sunset](https://codepen.io/SmokinClove/pen/LYPLKvr)
 ![sunset](sunset.png)
-As a break from drawing anime characters, and since i had just skimmed through the manga Chihayafuru (i only watched a few anime episodes enough for me to hear my idol Hosoya Yoshimasa voice Arata in a Fukui accent), a certain poem caught my attention. Ironically, this is the one poem, though recited a few times in the show, is not one of the 100 poems in the karuta game around which the show revolves.
+As a break from drawing anime characters, and since i had just skimmed through the manga Chihayafuru (i only watched a few anime episodes enough for me to hear my idol Hosoya Yoshimasa voice Arata in a Fukui accent), a certain poem caught my attention. Ironically, this is the one poem, though recited a few times in the show, not among the main 100 poems in the karuta game around which the show revolves.
 
 I just love the image of a crimson sunset so much i improvised a scene with a love letter and an omamori, with the original Japanese text and my own English translation of the poem.
 
@@ -100,7 +100,7 @@ Used for the same aforementioned internal talk. The side profile was deliberatel
 My third full bodied portrait. Developing upon the aforementioned side portrait of a girl, and adding the butterflies that fade, i decided to make the butterfly in front of her animated by using scaling animation on the wings. Of course it would be great if i could animate the fading butterflies as well but, that would be a lottt of effort.
 
 
-Thoughts
+###Thoughts
 
 One thing worth mentioning here is, when drawing something relatively complicated, i have figured i prefer using absolute position and block display instead of using flex. For example, even though the human body can be viewed as a vertical flex parent container consisting the head, the body and legs, i would still prefer to have each of these 3 an absolutely positioned block and then translate the body and the legs downwards. There are certain times where flex or grid display is actually plausible - i draw the snail's front part using grid - but i settled with just block and absolute positioning so that i have more control over where to move the components. If a group of components should be moved or transformed together, i would wrap them in a separate absolute block and transform the whole group together. For this Yosano portrait, because i am not confident in my own sense of ratio, i made the whole head a block and experiment with different scales and rotation to find out the position and size that looked proper.
 
