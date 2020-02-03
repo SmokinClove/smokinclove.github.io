@@ -1,52 +1,295 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SmokinClove's (mainly) CSS Nonsense]]></title><description><![CDATA[A blog by SmokinClove. Built with Gatsby]]></description><link>https://smokinclove.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 15 Oct 2019 06:16:46 GMT</lastBuildDate><item><title><![CDATA[TIL#14 - Today I learned...]]></title><description><![CDATA[That there are 7 types in Javascript String
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SmokinClove's (mainly) CSS Nonsense]]></title><description><![CDATA[A blog by SmokinClove. Built with Gatsby]]></description><link>https://smokinclove.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 03 Feb 2020 15:13:28 GMT</lastBuildDate><item><title><![CDATA[My 2019 highlights]]></title><description><![CDATA[There used to be a list of things i wanted to do before turning 25 aka in 2019. i don’t need to take another glance at the list to say that…]]></description><link>https://smokinclove.github.io//writeups/2019-highlights/</link><guid isPermaLink="false">https://smokinclove.github.io//writeups/2019-highlights/</guid><pubDate>Mon, 03 Feb 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;There used to be a list of things i wanted to do before turning 25 aka in 2019.&lt;/p&gt;
+&lt;p&gt;i don’t need to take another glance at the list to say that i didn’t achieve most of them.&lt;/p&gt;
+&lt;p&gt;However, that is not necessarily a bad thing.&lt;/p&gt;
+&lt;p&gt;What it means is that i realised that most of the things i wanted to do before didn’t matter that much in the timeline given.&lt;/p&gt;
+&lt;p&gt;Just to name a few, things like seeing snow for the first time - actually it does matter to me, i do want to see snow - but it does not have to be now. i can always arrange a short trip to Japan in February and come back if all i wanted to see was just snow. In exchange, i saw the frost near the top of Mt. Kinabalu as i gritted my teeth against the cold wind on my bare face in the pitch black night.&lt;/p&gt;
+&lt;p&gt;Or, seeing the aurora - again, it does not have to be now. In exchange, i got to see the sunrise at the top of Mt. Fuji with a cold green tea bag in my hands alongside my climbing buddies.&lt;/p&gt;
+&lt;p&gt;Besides the things i didn’t achieve before 25 however, i did unintentionally achieve one thing i planned for my 27th year instead: Learning a new (human) language. Let’s go there when it’s its turn.&lt;/p&gt;
+&lt;p&gt;They (whoever it is) say to start the new year we should talk about positive things first. So i will start with things that i have “achieved” within the span of last year.&lt;/p&gt;
+&lt;h2&gt;1. I. WENT. TO. JAPAN. OH. MY. GOSH (April 2019)&lt;/h2&gt;
+&lt;p&gt;Let me just clarify first by saying the only countries i had been to before 2019 besides Vietnam and Singapore are Malaysia and Cambodia. So when i saw an excuse to get my otaku ass out of my otaku head and fly to the otaku land, i chomped at it as if it was a giant Subway sandwich.
+Except, the first 2 things i went to visit the moment i landed, was, two literature monuments and a grave, all of the same man. Please don’t ask me why.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 540px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/18e3fbe54ead79713a2316b3fa279bab/3c312/monument.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.29629629629629%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAG+SRjiML//xAAaEAACAgMAAAAAAAAAAAAAAAACAwERABAU/9oACAEBAAEFAumKNoMgnFeVr//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAABAhEgISJB/9oACAEBAAY/AqmG1JdNlZ//xAAdEAACAgIDAQAAAAAAAAAAAAAAARExIUFRcYGR/9oACAEBAAE/IbyuxGbJlbQK7nK2eL4JM4VESf/aAAwDAQACAAMAAAAQS8//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCH/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qp//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVHB/9oACAEBAAE/EC8BTbA5FGdAlF1lYyrG1NaB08QqvglFbOsiQLfHs//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kunikida Doppo literature monument&quot;
+        title=&quot;Kunikida Doppo literature monument&quot;
+        src=&quot;/static/18e3fbe54ead79713a2316b3fa279bab/3c312/monument.jpg&quot;
+        srcset=&quot;/static/18e3fbe54ead79713a2316b3fa279bab/8ee9c/monument.jpg 148w,
+/static/18e3fbe54ead79713a2316b3fa279bab/ebbe7/monument.jpg 295w,
+/static/18e3fbe54ead79713a2316b3fa279bab/3c312/monument.jpg 540w&quot;
+        sizes=&quot;(max-width: 540px) 100vw, 540px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Small cherry petals dotted the monument. It was beautiful.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 540px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f3d611e80348ab890f88ddc7074e5dae/3c312/cemetery.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.29629629629629%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABxq4gSIkv/8QAGhAAAwEAAwAAAAAAAAAAAAAAAQIRAwAUM//aAAgBAQABBQLt6kPq0XdlEgfzvP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAaEAADAAMBAAAAAAAAAAAAAAAAAREQIXGh/9oACAEBAAY/AovBVR9Ikaz/AP/EABwQAAICAgMAAAAAAAAAAAAAAAABEVEhQRAxcf/aAAgBAQABPyF0XQzw6G9iDB7yQiRLzjlZ/9oADAMBAAIAAwAAABCT/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QlY//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QTC1f/8QAHBABAQACAgMAAAAAAAAAAAAAAREAITGBYXGR/9oACAEBAAE/EATqghsfcxzF17B9yICu3KvWVRsdCYRt2y3zgIRZ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Aoyama cemetery&quot;
+        title=&quot;Aoyama cemetery&quot;
+        src=&quot;/static/f3d611e80348ab890f88ddc7074e5dae/3c312/cemetery.jpg&quot;
+        srcset=&quot;/static/f3d611e80348ab890f88ddc7074e5dae/8ee9c/cemetery.jpg 148w,
+/static/f3d611e80348ab890f88ddc7074e5dae/ebbe7/cemetery.jpg 295w,
+/static/f3d611e80348ab890f88ddc7074e5dae/3c312/cemetery.jpg 540w&quot;
+        sizes=&quot;(max-width: 540px) 100vw, 540px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 456px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/98427f4028f396418cd2143135534673/05902/grave.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.6315789473684%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAQDAgEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHWWbsvntBVUSb6OkiqPCcgn//EAB0QAAICAgMBAAAAAAAAAAAAAAABAhEDEgQUISL/2gAIAQEAAQUC7UovkO0bWZPXqzG035SlFkPkbKKGM//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BX//EABYRAQEBAAAAAAAAAAAAAAAAABABEf/aAAgBAgEBPwFyP//EABsQAAEEAwAAAAAAAAAAAAAAAAAQESExASBB/9oACAEBAAY/AmsfqwmYJKStf//EAB4QAAMBAAICAwAAAAAAAAAAAAABESExQRBRcYGR/9oACAEBAAE/IbTLffoehtfv2fRTplV0j4yVRFnI2jtLDWr9Khpclc0mtMYSly/BNP/aAAwDAQACAAMAAAAQNB3Dg9//xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/ELrFP//EABkRAAMAAwAAAAAAAAAAAAAAAAABERAhYf/aAAgBAgEBPxC1Y0cBiP/EAB0QAQADAQADAQEAAAAAAAAAAAEAESExQVFhcaH/2gAIAQEAAT8Q5/4lq0H8jI6CxSA5LPN/sQwt8y05WC8XIk8H4ypFo0t89wkgF5cPUG+KS5Y21+eobKKSihFt6rLIFVoDBV6zBryf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kunikida Doppo&amp;#39;s grave&quot;
+        title=&quot;Kunikida Doppo&amp;#39;s grave&quot;
+        src=&quot;/static/98427f4028f396418cd2143135534673/05902/grave.jpg&quot;
+        srcset=&quot;/static/98427f4028f396418cd2143135534673/8ee9c/grave.jpg 148w,
+/static/98427f4028f396418cd2143135534673/ebbe7/grave.jpg 295w,
+/static/98427f4028f396418cd2143135534673/05902/grave.jpg 456w&quot;
+        sizes=&quot;(max-width: 456px) 100vw, 456px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;My housemate jumped when i sent a selfie with the cemetery in the background. Don’t worry i won’t show my face here. Let the beauty of the cemetery not be tainted.&lt;/p&gt;
+&lt;h2&gt;2.  First tech conference: Realising the beauty of attending one as a female - no toilet queue (April 2019)&lt;/h2&gt;
+&lt;p&gt;So as i mentioned, the whole excuse for me to visit Japan was Google’s AMP conference.
+i only have very limited experience working with AMP in the past as an intern when the technology was just about 1 year old, so it was a very nice refresher on the topic and a good way to enjoy other people’s ideas all over the world (plus the good weather, good view and the good food. Oh, not to forget i had the chance to sneak out on a climb in Tokyo, too). Knowing myself to be the hands on type, i am convinced that if i were to ever watch a conference, i should just try to go there physically because i am not disciplined enough to remember to watch all the saved videos i have of important conferences.&lt;/p&gt;
+&lt;h2&gt;3. More rigorous volunteering with Project X (first half of 2019)&lt;/h2&gt;
+&lt;p&gt;i made a point to attend a physical outreach with Project X at first almost weekly, and subsequently bi-weekly. Also, i got to attend their various workshops such as Counselling and Mental Health trainings!&lt;/p&gt;
+&lt;h2&gt;4. Second tech conference: Oh look it’s my “art”! (June 2019)&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/225ceb0829f628631970738fddb4d58a/b3ee8/jsconf.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAfPgDrZG46yHZRX/xAAdEAACAQQDAAAAAAAAAAAAAAAAARECAxASITFB/9oACAEBAAEFAiCmzsuieVcaNhVEnkLH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFhAAAwAAAAAAAAAAAAAAAAAAEBEw/9oACAEBAAY/Ag5f/8QAHRAAAwACAgMAAAAAAAAAAAAAAAERITFBURBh0f/aAAgBAQABPyFJa9E3541th8dCbByCCJoa3N0ZORUqRNKLqNaP/9oADAMBAAIAAwAAABAs87D/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EDVf/8QAIBABAQEAAQIHAAAAAAAAAAAAAREAIUFRMWFxodHh8P/aAAgBAQABPxBxQM7sQ8Fe65hDCzKAE9U82Ekp4UC+2m0PTc5Y4GEsY6W/OI6ef3fIQE+tNgAghv/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Art&quot;
+        title=&quot;Art&quot;
+        src=&quot;/static/225ceb0829f628631970738fddb4d58a/c739e/jsconf.jpg&quot;
+        srcset=&quot;/static/225ceb0829f628631970738fddb4d58a/8ee9c/jsconf.jpg 148w,
+/static/225ceb0829f628631970738fddb4d58a/ebbe7/jsconf.jpg 295w,
+/static/225ceb0829f628631970738fddb4d58a/c739e/jsconf.jpg 590w,
+/static/225ceb0829f628631970738fddb4d58a/5413e/jsconf.jpg 885w,
+/static/225ceb0829f628631970738fddb4d58a/b3ee8/jsconf.jpg 960w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+As you can see some people submitted art to the conference and got free tickets! My submission is the last one on the list.
+So the whole conference attending business actually starts from a Super Silly Hackathon session in December 2018, and at the end of the presentations, the organisers of JSConf.Asia 2019 invites artsy people to submit Javascript animations to their home website as a chance to get the conference ticket for free. Long story short, i did! And this is my “art” - to be honest, after longggg considerations of different things to make. i had fun selecting the colours for the crystals - my sense of colour and ratio is not very good.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/276e44401e9276b6ad316e0a433e3f8a/a6f40/myart.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.38528138528139%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVQ4y1VU2W4iMRAkjO+x5z4INwmwUaRcirQPK+X/P6u27AGSPLQM2F1d1dXNrKoq/Iy6ns5x06MeShwPB+zaHU6LIza7FZpFhWHdoSq/3/6MmRACt8gEsnnG4GnmEHYOYxUKEVDIAtZqSMs7ccc38/TuVz5jppRCCqmgmZDXFspJ7LcbBOPw9vCBVfOA5TDg/tDDFAKrP3uCe741UFrjhsFIgFLKW5icwLlEZcvEqrUDXKgh83n6XZOhLxs4X0C7jDniEnICjB+0YxWj4AqL8j6HLiQedjsCBpy3z2j7FcJo0OwKGC+weT4SMKBeVXAuMNgOqolYMynIymsGASsD31oyUShHTzYS5eDJ0MBRnu9453h3H3gKVH2LEAYUYYQxeWKaGNpcwxIw9sQ3JskuF46sJcLgYMNULL/chYF9pvR6qAnY0/EROZkmwCyTGBuLsdSo1jnOrxyLQePlL2XlbZIXgQq2otmHpGR4qpLbjy8DttsWh0OLtg3IssSQ1TWlcTyinL4zqCuFtmlhXQ0fKrLJKH+6j6dkKwRzXJB8p9HUiq5HU2nKHRnu2Zt9ZLj3OL3VNEHh/evMZI/Hj1dKG1GuLbpjCU2Gz/86lHz/+dVhuc2xPnjmOES1M8Ee5nS4YnXF/ihWio5LsorMrLfwvk0mxP7FvjZsQcN+d1Qj+V0xVyqZZnmW0eWWLo/RZTKtVnkyoT9PUhenJZphCT9S2i6kok+fVEHQ80uJnGY5sjU5wYW8zKFmb5ScNoUGRSbRhDg2xSIWMNME9NPY1CxqeIY2bsplS/S0IL82JX62YZrJNHM0IIJcZ/Ra7DqPttDJiJ/5t11OP2iV2MSz3k4j0p0oq6ZhqwLr96cEUq1Dep/eXnOvu3zbY3U5xRRKy8uoyCQ9sa0bStXfuy/kr/+BGP8BpIxtIlGM/2oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Mine&quot;
+        title=&quot;Mine&quot;
+        src=&quot;/static/276e44401e9276b6ad316e0a433e3f8a/b9e4f/myart.png&quot;
+        srcset=&quot;/static/276e44401e9276b6ad316e0a433e3f8a/cf440/myart.png 148w,
+/static/276e44401e9276b6ad316e0a433e3f8a/d2d38/myart.png 295w,
+/static/276e44401e9276b6ad316e0a433e3f8a/b9e4f/myart.png 590w,
+/static/276e44401e9276b6ad316e0a433e3f8a/f9b6a/myart.png 885w,
+/static/276e44401e9276b6ad316e0a433e3f8a/a6f40/myart.png 924w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;https://codepen.io/SmokinClove/pen/gyOJKm&quot;&gt;my Codpen&lt;/a&gt; for animation.
+This event was the first time anything visual i made got shown to people publicly.&lt;/p&gt;
+&lt;h2&gt;5. First tech meetup as a speaker: Fear Of Being Boring (July 2019)&lt;/h2&gt;
+&lt;p&gt;i liked drawing as a child. As i grew up, i developed a tendency towards music. For a living, i code. So, why not do something that has part my inner child, part my adult sides in it?
+In my university days, i always sneaked music aspects into the tasks that i do. Being it school projects, or joining a composing CCA, or taking up a second major in music production. i love the feeling of coding with the aim of something crazy in mind, something i enjoy like a child.
+i decided to start drawing with pure HTML and CSS from the very simple to the much more complicated. And this &lt;a href=&quot;https://www.youtube.com/watch?v=j7bx3CTkq-E&quot;&gt;talk&lt;/a&gt; is the first step towards pursuing that hobby.&lt;/p&gt;
+&lt;h2&gt;6. Get Out!! : Fuji and Cat Ba (August 2019)&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 240px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/55e8320e3dc1b171cb51595dae4a053a/0783d/climb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;climb in Cat Ba&quot;
+        title=&quot;climb in Cat Ba&quot;
+        src=&quot;/static/55e8320e3dc1b171cb51595dae4a053a/0783d/climb.png&quot;
+        srcset=&quot;/static/55e8320e3dc1b171cb51595dae4a053a/cf440/climb.png 148w,
+/static/55e8320e3dc1b171cb51595dae4a053a/0783d/climb.png 240w&quot;
+        sizes=&quot;(max-width: 240px) 100vw, 240px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Oh yeah that’s me.&lt;/p&gt;
+&lt;p&gt;First outdoor climbing trip (if i do not count the small climbing section within the Kinabalu trip, that is) ended up in Vietnam… Well the air ticket is affordable and there are nice islands out there so why not. The sea is literally behind you so you can do a climb and then jump in for a swim.&lt;/p&gt;
+&lt;p&gt;Once again stepping onto Japan’s soil, i joined my climbing pals to conquer the beautiful Mt. Fuji (no photos sadly). Before you reach the top there is a torii gate that you need to pass through, seems like a sign of good luck, which i found quite interesting.&lt;/p&gt;
+&lt;p&gt;Anyway these trips were not just to make me feel more satisfied, it was also the last chances to get some fun before i enrolled in the part time Master’s program.&lt;/p&gt;
+&lt;h2&gt;7. Break the 50 books a year barrier (September 2019)&lt;/h2&gt;
+&lt;p&gt;Finished about (not all of the books are of typical thickness and sometimes i also insert short stories) 50 books, which started off as a list and then the list expanded infinitely but no problem my goal was to see if i could reach that number or not.&lt;/p&gt;
+&lt;h2&gt;8. First Hacktoberfest: As a participant and a “host” (October 2019)&lt;/h2&gt;
+&lt;p&gt;i had a writeup about it here &lt;a href=&quot;https://dev.to/smokinclove/my-first-hacktoberfest-from-contributing-to-receiving-contributions-2h7k&quot;&gt;https://dev.to/smokinclove/my-first-hacktoberfest-from-contributing-to-receiving-contributions-2h7k&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;9. Second public tech talk: Dancing with React Hooks (October 2019)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/azkWujdvmVs&quot;&gt;This one&lt;/a&gt; was especially fun, both to prepare and to execute. Reason being, i got to draw something hilarious and talk about it in a hilarious manner and still use it to talk about something popular. Also, how many chances do you get in your lifetime to (try to) moon walk in front of a group of serious looking adults including your own bosses? Even better, with no shoes! (There is a good reason for it, though)&lt;/p&gt;
+&lt;h2&gt;10. Finally got myself certified as a climber (November 2019)&lt;/h2&gt;
+&lt;p&gt;i am only 1 year and 3 months late. No problem.&lt;/p&gt;
+&lt;h2&gt;11. Last tech (or not) talk of the year: “I wonder if jellyfish dream in their sleep”? (December 2019)&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 320px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a1d60cadb713bd1664bf66a2faa66651/f562b/jellyfish.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBf/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAv/aAAwDAQACEAMQAAAB0pnbG6Eaf//EABsQAAMAAgMAAAAAAAAAAAAAAAABAgMREiEx/9oACAEBAAEFAk9DXJVj7yRoij0//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAES/9oACAEDAQE/AY0//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECE0H/2gAIAQIBAT8BuOo1Z//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAIDAQEAAAAAAAAAAAAAAAABESFhEDH/2gAIAQEAAT8hqRMaI24vYmMKs0f/2gAMAwEAAgADAAAAEP8Az//EABYRAQEBAAAAAAAAAAAAAAAAAAEQQf/aAAgBAwEBPxBux//EABgRAQEAAwAAAAAAAAAAAAAAAAEAESFB/9oACAECAQE/EM53g9N//8QAGBABAQEBAQAAAAAAAAAAAAAAAQAhETH/2gAIAQEAAT8QEtds8XaE05GsCRnkB+i//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;jellyfish&quot;
+        title=&quot;jellyfish&quot;
+        src=&quot;/static/a1d60cadb713bd1664bf66a2faa66651/f562b/jellyfish.jpg&quot;
+        srcset=&quot;/static/a1d60cadb713bd1664bf66a2faa66651/8ee9c/jellyfish.jpg 148w,
+/static/a1d60cadb713bd1664bf66a2faa66651/ebbe7/jellyfish.jpg 295w,
+/static/a1d60cadb713bd1664bf66a2faa66651/f562b/jellyfish.jpg 320w&quot;
+        sizes=&quot;(max-width: 320px) 100vw, 320px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+About learning in public and how lost i currently am in terms of inspirations for the next stage… Honestly with my Master’s and all, i actually expected myself to have a hiatus from CSS drawing, though it’s really disheartening to have to stop the flow… But right now i think i have a rough idea of what i want to make after coming back to it.&lt;/p&gt;
+&lt;p&gt;You can watch the talk &lt;a href=&quot;https://youtu.be/zJJcVuaEO3A&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;11. Finally a third language: Passing my JLPT N4 (December 2019)&lt;/h2&gt;
+&lt;p&gt;So the goal that is supposed to be fulfilled before my 27th birthday but got fulfilled by my 25th year instead (well, the exam was in December so technically it is when i was 25 years and 1 month old) is to learn a new language. i started learning Japanese out of nowhere in February 2018 (so now is just nice 2 years ever since) after watching a certain anime named No.6. i strongly recommend it.&lt;/p&gt;
+&lt;h2&gt;13. Barely passing my Master program modules in the first semester: &lt;code class=&quot;language-text&quot;&gt;¯\_(ツ)_/¯&lt;/code&gt; well, uhm, it is what it is…&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;However there are certainly a few things i needed to sacrifice in pursuit of new things.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For one, i didn’t get to volunteer as much as i could. The key thing about volunteering is consistency, so a lot of months had to be put in to build the rapport before any substantial change can be achieved. Though luckily, in both of the organisations i am still mainly involved in, i managed to reach a point of rapport first before taking a break due to my second duty as a student.&lt;/p&gt;
+&lt;p&gt;Secondly, i wish i could take more time to write journals. As easy as it is to be swept by the flow and hassle from one task to another, writing down our thoughts help us be more aware of of emotional states.&lt;/p&gt;
+&lt;p&gt;Now, my first task to complete before end of February 2020, is to finish &lt;a href=&quot;https://markmanson.net/not-giving-a-fuck&quot;&gt;this damn book&lt;/a&gt;. It’s important, very, very, important.&lt;/p&gt;
+&lt;p&gt;Til then, goodbye~ (:]ミ（:]彡（:]ミ（:]彡&lt;/p&gt;
+&lt;p&gt;Cheerio!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#14 - Today I learned...]]></title><description><![CDATA[That there are 7 types in Javascript: String
 Number
 Boolean
 Null
 Undefined
 Object
-Symbol (part of ECMAScript 2015)]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15102019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15102019/</guid><pubDate>Tue, 15 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;That there are 7 types in Javascript&lt;/p&gt;
-&lt;p&gt;String
-Number
-Boolean
-Null
-Undefined
-Object
+Symbol (part of ECMAScript 2015)]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15102019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15102019/</guid><pubDate>Tue, 15 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;That there are 7 types in Javascript:&lt;/p&gt;
+&lt;p&gt;String&lt;br /&gt;
+Number&lt;br /&gt;
+Boolean&lt;br /&gt;
+Null&lt;br /&gt;
+Undefined&lt;br /&gt;
+Object&lt;br /&gt;
 Symbol (part of ECMAScript 2015)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[一杯/いっぱい：one cup, full
 Examples/例
-俺の心はずっと君でいっぱいなんだよ：my heart is always full of you (Tsuukin Kareshi CD drama as narrated by Hosoya Yoshimasa…]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/11102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/11102019/</guid><pubDate>Fri, 11 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;一杯/いっぱい：one cup, full
+俺の心はずっと君でいっぱいなんだよ：my heart is always full of you (Tsuukin Kareshi CD drama as narrated by Hosoya Yoshimasa…]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/11102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/11102019/</guid><pubDate>Fri, 11 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;一杯/いっぱい：one cup, full&lt;br /&gt;
 Examples/例
 俺の心はずっと君でいっぱいなんだよ：my heart is always full of you (Tsuukin Kareshi CD drama as narrated by Hosoya Yoshimasa)
-お腹が一杯です: i am full&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[表す (あらはす): 今まで無かったもの、隠れているものを、はっきり見えるようにする (Google translate), reveal, express, show
+お腹が一杯です: i am full&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[一切: never]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/18102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/18102019/</guid><pubDate>Fri, 11 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;一切: never&lt;br /&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[表す (あらはす): 今まで無かったもの、隠れているものを、はっきり見えるようにする (Google translate), reveal, express, show
 Examples/例
 	
-UNは国連を表します: UN stands for United Nations…]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/10102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/10102019/</guid><pubDate>Thu, 10 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;表す (あらはす): 今まで無かったもの、隠れているものを、はっきり見えるようにする (Google translate), reveal, express, show
-Examples/例
+UNは国連を表します: UN stands for United Nations…]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/10102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/10102019/</guid><pubDate>Thu, 10 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;表す (あらはす): 今まで無かったもの、隠れているものを、はっきり見えるようにする (Google translate), reveal, express, show&lt;br /&gt;
+Examples/例&lt;br /&gt;
 
-UNは[国連]を表します: UN stands for United Nations. (&lt;a href=&quot;https://www.tanoshiijapanese.com/dictionary/entry_details.cfm?entry_id=25096&quot;&gt;https://www.tanoshiijapanese.com/dictionary/entry_details.cfm?entry_id=25096&lt;/a&gt;)&lt;/p&gt;
+UNは[国連]を表します: UN stands for United Nations. (&lt;a href=&quot;https://www.tanoshiijapanese.com/dictionary/entry_details.cfm?entry_id=25096&quot;&gt;https://www.tanoshiijapanese.com/dictionary/entry_details.cfm?entry_id=25096&lt;/a&gt;)&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;結果を図表で表わす: show results with diagrams (&lt;a href=&quot;https://dictionary.goo.ne.jp/thsrs/10671/meaning/m0u/&quot;&gt;https://dictionary.goo.ne.jp/thsrs/10671/meaning/m0u/&lt;/a&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#13 - Today I learned...]]></title><description><![CDATA[that “Walt Disney was presented with one normal sized honorary Oscar and seven little Oscars for Snow White and the Seven Dwarves in 193…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/10102019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/10102019/</guid><pubDate>Thu, 10 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;that “Walt Disney was presented with one normal sized honorary Oscar and seven little Oscars for Snow White and the Seven Dwarves in 1938.” &lt;a href=&quot;https://www.reddit.com/r/todayilearned/comments/dfno0q/til_that_walt_disney_was_presented_with_one/&quot;&gt;https://www.reddit.com/r/todayilearned/comments/dfno0q/til_that_walt_disney_was_presented_with_one/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ok fine, copying wholesale is not really learning, but i had no idea how to even rephrase this sentence&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[学ぶ (まなぶ)：to learn
 Examples/例
-この経験で学ぶところがあった. We have learned a lesson from this experience (https://ejje.weblio.jp/content/学ぶ)]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/09102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/09102019/</guid><pubDate>Wed, 09 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;学ぶ (まなぶ)：to learn
-Examples/例
+この経験で学ぶところがあった. We have learned a lesson from this experience (https://ejje.weblio.jp/content/学ぶ)]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/09102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/09102019/</guid><pubDate>Wed, 09 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;学ぶ (まなぶ)：to learn&lt;br /&gt;
+Examples/例&lt;br /&gt;
 この経験で学ぶところがあった. We have learned a lesson from this experience (&lt;a href=&quot;https://ejje.weblio.jp/content/%E5%AD%A6%E3%81%B6&quot;&gt;https://ejje.weblio.jp/content/学ぶ&lt;/a&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[少なくとも: at least
 Examples/例
-少なくとも四月まで止まる：stay until at least April]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/08102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/08102019/</guid><pubDate>Tue, 08 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;少なくとも: at least
-Examples/例
+少なくとも四月まで止まる：stay until at least April]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/08102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/08102019/</guid><pubDate>Tue, 08 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;少なくとも: at least&lt;br /&gt;
+Examples/例&lt;br /&gt;
 少なくとも四月まで止まる：stay until at least April&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[増やす: increase something.増えるようにする
 Examples/例
-社員を増やす：increase the number of employees (https://www.weblio.jp/content/増やす)]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/07102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/07102019/</guid><pubDate>Mon, 07 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;増やす: increase something.増えるようにする
-Examples/例
+社員を増やす：increase the number of employees (https://www.weblio.jp/content/増やす)]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/07102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/07102019/</guid><pubDate>Mon, 07 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;増やす: increase something.増えるようにする&lt;br /&gt;
+Examples/例&lt;br /&gt;
 社員を増やす：increase the number of employees (&lt;a href=&quot;https://www.weblio.jp/content/%E5%A2%97%E3%82%84%E3%81%99&quot;&gt;https://www.weblio.jp/content/増やす&lt;/a&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[切れない: not enough/too much to do smt.
 Examples/例
-あこがれだけじゃ埋めきれない：just being in love isn’t enough to satiate me…]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/06102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/06102019/</guid><pubDate>Sun, 06 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;切れない: not enough/too much to do smt.
-Examples/例
-あこがれだけじゃ埋めきれない：just being in love isn’t enough to satiate me (明日、僕は君に会いに行く)
+あこがれだけじゃ埋めきれない：just being in love isn’t enough to satiate me…]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/06102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/06102019/</guid><pubDate>Sun, 06 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;切れない: not enough/too much to do smt.&lt;br /&gt;
+Examples/例&lt;br /&gt;
+あこがれだけじゃ埋めきれない：just being in love isn’t enough to satiate me (明日、僕は君に会いに行く)&lt;br /&gt;
 食べ物の量が多くて食べきれない： there is too much food for me to finish　（&lt;a href=&quot;https://japanesetest4you.com/flashcard/learn-jlpt-n3-grammar-%E3%81%8D%E3%82%8C%E3%81%AA%E3%81%84-kirenai/%EF%BC%89&quot;&gt;https://japanesetest4you.com/flashcard/learn-jlpt-n3-grammar-きれない-kirenai/）&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[ほとんど: almost all/ hardly any.
-Used for both positive and negative]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/05102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/05102019/</guid><pubDate>Sat, 05 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;ほとんど: almost all/ hardly any.
-Used for both positive and negative&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[ずいぶん: quite]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/04102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/04102019/</guid><pubDate>Fri, 04 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;ずいぶん: quite&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[ギリギリセーフ: barely safe]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/03102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/03102019/</guid><pubDate>Thu, 03 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;ギリギリセーフ: barely safe&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#11]]></title><description><![CDATA[https://gist.github.com/ayamflow/b602ab436ac9f05660d9c15190f4fd7b https://forum.webflow.com/t/overflow-hidden-round-corners-not-working-on…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/23092019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/23092019/</guid><pubDate>Fri, 30 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://gist.github.com/ayamflow/b602ab436ac9f05660d9c15190f4fd7b&quot;&gt;https://gist.github.com/ayamflow/b602ab436ac9f05660d9c15190f4fd7b&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://forum.webflow.com/t/overflow-hidden-round-corners-not-working-on-safari/67805/5&quot;&gt;https://forum.webflow.com/t/overflow-hidden-round-corners-not-working-on-safari/67805/5&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#12]]></title><description><![CDATA[We can have multiple box shadows
+Used for both positive and negative]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/05102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/05102019/</guid><pubDate>Sat, 05 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;ほとんど: almost all/ hardly any.&lt;br /&gt;
+Used for both positive and negative&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[ずいぶん: quite]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/04102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/04102019/</guid><pubDate>Fri, 04 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;ずいぶん: quite&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Japanese word of the day]]></title><description><![CDATA[ギリギリセーフ: barely safe]]></description><link>https://smokinclove.github.io//japanese-word-of-the-day/03102019/</link><guid isPermaLink="false">https://smokinclove.github.io//japanese-word-of-the-day/03102019/</guid><pubDate>Thu, 03 Oct 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;ギリギリセーフ: barely safe&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#12]]></title><description><![CDATA[We can have multiple box shadows
 examples at https://www.youtube.com/watch?v=SXwBxro6y40&feature=youtu.be]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/07102019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/07102019/</guid><pubDate>Fri, 30 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;We can have multiple box shadows
-examples at &lt;a href=&quot;https://www.youtube.com/watch?v=SXwBxro6y40&amp;#x26;feature=youtu.be&quot;&gt;https://www.youtube.com/watch?v=SXwBxro6y40&amp;#x26;feature=youtu.be&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A tale of my CSS Drawings]]></title><description><![CDATA[So, someone asked me on Twitter how i started drawing this portrait of Yosano Akiko as portrayed in the Japanese anime Bungou Stray Dogs…]]></description><link>https://smokinclove.github.io//writeups/a-tale-of-css-drawings/</link><guid isPermaLink="false">https://smokinclove.github.io//writeups/a-tale-of-css-drawings/</guid><pubDate>Thu, 29 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;So, someone asked me on Twitter how i started drawing this portrait of Yosano Akiko as portrayed in the Japanese anime Bungou Stray Dogs.
+examples at &lt;a href=&quot;https://www.youtube.com/watch?v=SXwBxro6y40&amp;#x26;feature=youtu.be&quot;&gt;https://www.youtube.com/watch?v=SXwBxro6y40&amp;#x26;feature=youtu.be&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#11]]></title><description><![CDATA[https://gist.github.com/ayamflow/b602ab436ac9f05660d9c15190f4fd7b https://forum.webflow.com/t/overflow-hidden-round-corners-not-working-on…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/23092019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/23092019/</guid><pubDate>Fri, 30 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://gist.github.com/ayamflow/b602ab436ac9f05660d9c15190f4fd7b&quot;&gt;https://gist.github.com/ayamflow/b602ab436ac9f05660d9c15190f4fd7b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://forum.webflow.com/t/overflow-hidden-round-corners-not-working-on-safari/67805/5&quot;&gt;https://forum.webflow.com/t/overflow-hidden-round-corners-not-working-on-safari/67805/5&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A tale of my CSS Drawings]]></title><description><![CDATA[So, someone asked me on Twitter how i started drawing this portrait of Yosano Akiko as portrayed in the Japanese anime Bungou Stray Dogs…]]></description><link>https://smokinclove.github.io//writeups/a-tale-of-css-drawings/</link><guid isPermaLink="false">https://smokinclove.github.io//writeups/a-tale-of-css-drawings/</guid><pubDate>Thu, 29 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;So, someone asked me on Twitter how i started drawing this portrait of Yosano Akiko as portrayed in the Japanese anime Bungou Stray Dogs.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
@@ -726,7 +969,9 @@ Those are done for other people: &lt;a href=&quot;https://codepen.io/SmokinClove
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;I wouldn’t say i achieved something of Diana Smith’s level with Pure CSS Francine, but being only half a year into this adventure, i am sure there are a lot more things i could learn and still a lot more i can make from the things i learn.&lt;/p&gt;
 &lt;p&gt;To more CSS art,&lt;/p&gt;
-&lt;p&gt;~Cherrio~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#10]]></title><description><![CDATA[https://medium.muz.li/optical-effects-9fca82b4cd9a]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/22082019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/22082019/</guid><pubDate>Thu, 22 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://medium.muz.li/optical-effects-9fca82b4cd9a&quot;&gt;https://medium.muz.li/optical-effects-9fca82b4cd9a&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#9]]></title><description><![CDATA[It’s been some time since i could digest such a brain fying post
+&lt;p&gt;~Cherrio~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#10]]></title><description><![CDATA[https://medium.muz.li/optical-effects-9fca82b4cd9a]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/22082019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/22082019/</guid><pubDate>Thu, 22 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://medium.muz.li/optical-effects-9fca82b4cd9a&quot;&gt;https://medium.muz.li/optical-effects-9fca82b4cd9a&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[today i learnt...]]></title><description><![CDATA[that there is such a thing called stupid sort…
+https://www.geeksforgeeks.org/bogosort-permutation-sort/]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/18102019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/18102019/</guid><pubDate>Sun, 18 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;that there is such a thing called stupid sort…
+&lt;a href=&quot;https://www.geeksforgeeks.org/bogosort-permutation-sort/&quot;&gt;https://www.geeksforgeeks.org/bogosort-permutation-sort/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#9]]></title><description><![CDATA[It’s been some time since i could digest such a brain fying post
 https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/16082019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/16082019/</guid><pubDate>Fri, 16 Aug 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;It’s been some time since i could digest such a brain fying post
 &lt;a href=&quot;https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/&quot;&gt;https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#8]]></title><description><![CDATA[This selector targets all of the siblings of a particular element. For example, if you wanted to target paragraphs in the same hierarchy as…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/24072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/24072019/</guid><pubDate>Wed, 24 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt; This selector targets all of the siblings of a particular element. For example, if you wanted to target paragraphs in the same hierarchy as your level-1 headings, you would do:&lt;/p&gt;
 &lt;p&gt;h1~p {
@@ -1120,7 +1365,9 @@ This is just so damn cool&lt;/p&gt;
 &lt;p&gt;Fallback variable: var(—stripes-angle, 90deg)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#5]]></title><description><![CDATA[EMs are relative to their parent’s font size
 REMs are relative to a base font-size]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/17072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/17072019/</guid><pubDate>Wed, 17 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;EMs are relative to their parent’s font size&lt;br /&gt;
 REMs are relative to a base font-size&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#4]]></title><description><![CDATA[https://www.smashingmagazine.com/2019/07/css-custom-properties-cascade/ BEM syntax actually influences the order in which properties are…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/16072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/16072019/</guid><pubDate>Tue, 16 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2019/07/css-custom-properties-cascade/&quot;&gt;https://www.smashingmagazine.com/2019/07/css-custom-properties-cascade/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BEM syntax actually influences the order in which properties are applied!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#3]]></title><description><![CDATA[Can have gradient background for texts https://css-tricks.com/snippets/css/gradient-text/]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15072019/</guid><pubDate>Mon, 15 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Can have gradient background for texts &lt;a href=&quot;https://css-tricks.com/snippets/css/gradient-text/&quot;&gt;https://css-tricks.com/snippets/css/gradient-text/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#2]]></title><description><![CDATA[For flex direction = column, flex-basis=0 refers to the height, so we need to specify width:0 to make sure the initial width is 0 instead of…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/10072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/10072019/</guid><pubDate>Wed, 10 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;For flex direction = column, flex-basis=0 refers to the height, so we need to specify width:0 to make sure the initial width is 0 instead of their initial content&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Joy of Doing Things without the Need for Justification]]></title><description><![CDATA[Recently, i gave a talk at TalkCSS about drawing with pure CSS. It seems the header of one of the slides made a good tagline, and that is…]]></description><link>https://smokinclove.github.io//the-joy-of-doing-things-without-the-need-for-justification/</link><guid isPermaLink="false">https://smokinclove.github.io//the-joy-of-doing-things-without-the-need-for-justification/</guid><pubDate>Tue, 09 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Recently, i gave a talk at TalkCSS about drawing with pure CSS. It seems the header of one of the slides made a good tagline, and that is the title of this blog post.&lt;/p&gt;
+&lt;p&gt;BEM syntax actually influences the order in which properties are applied!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#3]]></title><description><![CDATA[Can have gradient background for texts https://css-tricks.com/snippets/css/gradient-text/]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/15072019/</guid><pubDate>Mon, 15 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Can have gradient background for texts &lt;a href=&quot;https://css-tricks.com/snippets/css/gradient-text/&quot;&gt;https://css-tricks.com/snippets/css/gradient-text/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#2]]></title><description><![CDATA[For flex direction = column, flex-basis=0 refers to the height, so we need to specify width:0 to make sure the initial width is 0 instead of…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/10072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/10072019/</guid><pubDate>Wed, 10 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;For flex direction = column, flex-basis=0 refers to the height, so we need to specify width:0 to make sure the initial width is 0 instead of their initial content&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#1]]></title><description><![CDATA[Safari does not support transparent in gradients. We need to use a fully transparent color instead with opacity 0. See https://codepen.io…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/09072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/09072019/</guid><pubDate>Tue, 09 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;ol&gt;
+&lt;li&gt;Safari does not support transparent in gradients. We need to use a fully transparent color instead with opacity 0. See &lt;a href=&quot;https://codepen.io/pik_at/pen/dYWLrR&quot;&gt;https://codepen.io/pik_at/pen/dYWLrR&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[The Joy of Doing Things without the Need for Justification]]></title><description><![CDATA[Recently, i gave a talk at TalkCSS about drawing with pure CSS. It seems the header of one of the slides made a good tagline, and that is…]]></description><link>https://smokinclove.github.io//the-joy-of-doing-things-without-the-need-for-justification/</link><guid isPermaLink="false">https://smokinclove.github.io//the-joy-of-doing-things-without-the-need-for-justification/</guid><pubDate>Tue, 09 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Recently, i gave a talk at TalkCSS about drawing with pure CSS. It seems the header of one of the slides made a good tagline, and that is the title of this blog post.&lt;/p&gt;
 &lt;p&gt;You can watch the video &lt;a href=&quot;https://www.youtube.com/watch?v=j7bx3CTkq-E&quot; target=&quot;__blank&quot; rel=&quot;noopener noreferrer&quot;&gt;here&lt;/a&gt;, courtesy of Engineers.sg. You can follow them on Twitter &lt;a href=&quot;https://twitter.com/@engineersftw&quot; target=&quot;__blank&quot; rel=&quot;noopener noreferrer&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;From young, i have always loved drawing. My first inspirations for going on drawing spree when i was young were manga characters, from series like Sailor Moon to Inuyasha, from Naruto to D Gray Man. I could draw for hours on end. I (and my sister, who is actually my twin) basically led to the formation of a drawing club in my secondary school, because one fine day during a period where students were supposed to register for a club to join and attend their session, i, who obviously did not register for any because i thought i could just walk in (hail the power of youth &lt;code class=&quot;language-text&quot;&gt;¯\_(ツ)_/¯&lt;/code&gt;), assumed there would be a drawing club (i only realized there was none months later).&lt;/p&gt;
 &lt;p&gt;I spotted a teacher whom i knew to be an art teacher, but not of my class.&lt;/p&gt;
@@ -1140,9 +1387,7 @@ REMs are relative to a base font-size&lt;/p&gt;</content:encoded></item><item><t
 &lt;p&gt;&lt;span style=&quot;font-size:120%&quot;&gt;&lt;em&gt;Get on a random train and figure out the correct way later. Give drinks to a homeless person (if you are wondering where to find them, contact Homeless Hearts of Singapore). Talk to a prostitute. Befriend a same sex couple. Go to Dorothy’s bar. Even better, find out if they have any dress code and blend in. Oh, while you are at it, go spend your New Year countdown party there too. Get a haircut in the next foreign country when you are traveling.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You might find some of these things making no sense. I know. I did all of them.&lt;/p&gt;
 &lt;p&gt;And i still do.&lt;/p&gt;
-&lt;p&gt;~Cheerio~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL#1]]></title><description><![CDATA[Safari does not support transparent in gradients. We need to use a fully transparent color instead with opacity 0. See https://codepen.io…]]></description><link>https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/09072019/</link><guid isPermaLink="false">https://smokinclove.github.io//learn-a-new-thing-or-two-everyday/09072019/</guid><pubDate>Tue, 09 Jul 2019 23:46:37 GMT</pubDate><content:encoded>&lt;ol&gt;
-&lt;li&gt;Safari does not support transparent in gradients. We need to use a fully transparent color instead with opacity 0. See &lt;a href=&quot;https://codepen.io/pik_at/pen/dYWLrR&quot;&gt;https://codepen.io/pik_at/pen/dYWLrR&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Hello World! I finally get started on working on my website/blog… Better late than never, right? Hello, I am a female developer based in…]]></description><link>https://smokinclove.github.io//hello-world/</link><guid isPermaLink="false">https://smokinclove.github.io//hello-world/</guid><pubDate>Tue, 09 Jul 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Hello World!&lt;/p&gt;
+&lt;p&gt;~Cheerio~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Hello World! I finally get started on working on my website/blog… Better late than never, right? Hello, I am a female developer based in…]]></description><link>https://smokinclove.github.io//hello-world/</link><guid isPermaLink="false">https://smokinclove.github.io//hello-world/</guid><pubDate>Tue, 09 Jul 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Hello World!&lt;/p&gt;
 &lt;p&gt;I &lt;em&gt;finally&lt;/em&gt; get started on working on my website/blog…&lt;/p&gt;
 &lt;p&gt;Better late than never, right?&lt;/p&gt;
 &lt;p&gt;Hello, I am a female developer based in Singapore. I mainly work on front end, and currently explore CSS as a tool for drawing.
